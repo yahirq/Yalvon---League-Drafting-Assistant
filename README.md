@@ -8,7 +8,7 @@ This repository contains all that is used to build the .exe via pyinstaller
 - [License](#License)
 
 ## Installation 
-The application is built using the pyinstaller module in python, required modules needed to run the python are listed in *requirements.text* (if ran through the .py)
+The application is built using the pyinstaller module in python, required modules needed to run the python are listed in **requirements.text** (if ran through the .py)
 
 Clone the repository, and install required modules. 
 eg.
@@ -40,9 +40,9 @@ pyinstaller --name "Yalvon - Draft Assistant" `
 
 ## Usage
 If built through pyinstaller with the flags, you should get a .exe. The .exe will generate a .env file where the api key if entered is stored locally on the computer.
-However you can also run yalvon.py directly if all modules from the *requirements.text* are installed.
+However you can also run yalvon.py directly if all modules from the **requirements.text** are installed.
 
-*This application requires a gemini api key to use the AI features*
+**This application requires a gemini api key to use the AI features**
 
 Once a valid api key is entered at the top right (stored locally) the AI chat assistant can be used by entering a prompt at the bottom left corner.
 
