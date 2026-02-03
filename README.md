@@ -15,8 +15,10 @@ eg.
 ```
 pip install -r requirements.text
 ```
+After everything is installed, you can run **yalvon.py** to open the main application window
 
-Below are pyinstaller flags that were used. (for building .exe)
+v- These are instructions for building the .exe via pyinstaller -v
+Pyinstaller flags that were used.
 ```
 pyinstaller --name "Yalvon - Draft Assistant" `
  --onefile `
