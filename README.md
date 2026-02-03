@@ -8,6 +8,8 @@ This repository contains all that is used to build the .exe via pyinstaller
 - [License](#License)
 
 ## Installation 
+**Check releases for a prebuilt .exe [View Releases](https://github.com/yahirq/Yalvon---League-Drafting-Assistant/releases)**
+
 The application is built using the pyinstaller module in python, required modules needed to run the python are listed in **requirements.text** (if ran through the .py)
 
 Clone the repository, and install required modules. 
