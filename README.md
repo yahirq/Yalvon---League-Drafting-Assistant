@@ -43,6 +43,7 @@ If built through pyinstaller with the flags, you should get a .exe. The .exe wil
 However you can also run yalvon.py directly if all modules from the *requirements.text* are installed.
 
 *This application requires a gemini api key to use the AI features*
+
 Once a valid api key is entered at the top right (stored locally) the AI chat assistant can be used by entering a prompt at the bottom left corner.
 
 Otherwise the application functions as a League of Legends draft simulator, where you can pick/ban according to turn order (displayed at the top left). Champions available are from the latest patch as of January 2026, winrates, games picked, and predicted winrate from the Catboost model are all from historical pro League of Legends games as of December 2025.
