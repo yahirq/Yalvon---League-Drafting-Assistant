@@ -27,8 +27,6 @@ csv_path = resource_path("csvdata/lolplayerdata.csv")
 draftdata_path = resource_path("csvdata/draftdatalol.csv")
 images_path = resource_path("images")
 
-#todo have to restart for env var to apply
-#todo api key is in, prompt suggestion doesnt do anything
 load_dotenv()
 
 # -----------------------------
