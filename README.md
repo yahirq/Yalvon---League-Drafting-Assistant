@@ -1,5 +1,5 @@
 # Yalvon - League Drafting Assistant
-Yalvon is a League of Legends drafting assistant that utitlizes AI to create assisted suggestions and simulations of draft states.
+Yalvon is a League of Legends drafting assistant that utilizes AI to create assisted suggestions and simulations of draft states.
 This repository contains all that is used to build the .exe via pyinstaller
 
 ## Table of Contents
@@ -10,9 +10,9 @@ This repository contains all that is used to build the .exe via pyinstaller
 ## Installation 
 **Check releases for a prebuilt .exe [View Releases](https://github.com/yahirq/Yalvon---League-Drafting-Assistant/releases)**
 
-The application is built using the pyinstaller module in python, required modules needed to run the python are listed in **requirements.text** (if ran through the .py)
+The application is built using the pyinstaller module in Python, the required modules needed to run Python are listed in **requirements.text** (if ran through the .py)
 
-Clone the repository, and install required modules. 
+Clone the repository and install the required modules. 
 eg.
 ```
 pip install -r requirements.text
@@ -44,16 +44,16 @@ pyinstaller --name "Yalvon - Draft Assistant" `
 ```
 
 ## Usage
-If built through pyinstaller with the flags, you should get a .exe. The .exe will generate a .env file where the api key if entered is stored locally on the computer.
-However you can also run yalvon.py directly if all modules from the **requirements.text** are installed.
+If built through pyinstaller with the flags, you should get an .exe. The .exe will generate a .env file where the API key, if entered, is stored locally on the computer.
+However, you can also run yalvon.py directly if all modules from the **requirements.text** are installed.
 
-**This application requires a gemini api key to use the AI features**
+**This application requires a Gemini API key to use the AI features**
 
-Once a valid api key is entered at the top right (stored locally) the AI chat assistant can be used by entering a prompt at the bottom left corner.
+Once a valid API key is entered at the top right (stored locally), the AI chat assistant can be used by entering a prompt at the bottom left corner.
 
-Otherwise the application functions as a League of Legends draft simulator, where you can pick/ban according to turn order (displayed at the top left). Champions available are from the latest patch as of January 2026, winrates, games picked, and predicted winrate from the Catboost model are all from historical pro League of Legends games as of December 2025.
+Otherwise, the application functions as a League of Legends draft simulator, where you can pick/ban according to turn order (displayed at the top left). Champions available are from the latest patch as of January 2026, winrates, games picked, and predicted winrate from the Catboost model are all from historical pro League of Legends games as of December 2025.
 
-Each champion on the champion grid in the middle have a winrate, games played and a delta w/r percentage, which displays how much the predicted winrate bar will change for the team that has the turn. Turn order follows the same order held in pro matches.
+Each champion on the champion grid in the middle has a win rate, games played, and a delta win rate percentage, which displays how much the predicted win rate bar will change for the team that has the turn. Turn order follows the same order held in pro matches.
 
 ## License
 
