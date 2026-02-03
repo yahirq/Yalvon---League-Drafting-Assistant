@@ -18,6 +18,7 @@ pip install -r requirements.text
 After everything is installed, you can run **yalvon.py** to open the main application window
 
 v- These are instructions for building the .exe via pyinstaller -v
+
 Pyinstaller flags that were used.
 ```
 pyinstaller --name "Yalvon - Draft Assistant" `
